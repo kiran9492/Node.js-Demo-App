@@ -14,6 +14,12 @@ This project demonstrates how to create deployments, expose services, verify run
 • Docker
 • YAML configuration files
 
+
+
+
+
+
+
 ➤ Project Structure :
 kubernetes-app-deployment/
 │
@@ -27,6 +33,10 @@ kubernetes-app-deployment/
 
  
   
+
+  
+  
+  
   ➤Prerequisites
 
 Ensure the following tools are installed on your system:
@@ -36,11 +46,19 @@ Ensure the following tools are installed on your system:
 • kubectl
 • Virtualization enabled (if required)   
 
+
+
+
+
+
 ➤ Steps to Deploy ;
  1️⃣ Start Minikube Cluster
   ➔  minikube start
   ➔  kubectl cluster-info 
 
+
+ 
+ 
  2️⃣ Create Deployment :
 
  Create a file named deployment.yaml to define the application deployment.
@@ -49,6 +67,10 @@ Ensure the following tools are installed on your system:
    ➔ kubectl apply -f deployment.yaml
  Verify pods 
    ➔  kubectl get pods 
+
+
+
+
 
 3️⃣ Expose Application as a Service
 
@@ -61,11 +83,22 @@ Check services:
  Access application: 
    ➔ minikube service <service-name>
 
+ 
+ 
+ 
+ 
+ 
  4️⃣ Verify Pods & Services :
   ➔  kubectl get pods
   ➔  kubectl get services
   ➔  kubectl describe pod <pod-name>
 
+
+ 
+ 
+ 
+ 
+ 
  5️⃣ Scale the Deployment
 
   Increase or decrease replicas using:
@@ -73,6 +106,11 @@ Check services:
   Verify scaling:
    ➔  kubectl get pods
 
+
+ 
+ 
+ 
+ 
  6️⃣ Logs & Debugging
 
   View detailed pod information:
@@ -80,6 +118,11 @@ Check services:
   Check logs:
    ➔  kubectl logs <pod-name>
 
+
+ 
+ 
+ 
+ 
  ✅ Deliverables
 
   ✔ Kubernetes Deployment YAML
@@ -88,6 +131,10 @@ Check services:
   ✔ Scaling Demonstration
   ✔ Screenshots for verification 
 
+
+ 
+ 
+ 
  ➤Learning Outcomes
 
 • Understanding Kubernetes architecture
@@ -95,6 +142,8 @@ Check services:
 • Creating and managing deployments
 • Exposing applications via services
 • Scaling and monitoring Kubernetes workloads
+
+
 
 
 

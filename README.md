@@ -1,5 +1,6 @@
 # Node.js-Demo-App
 Kubernetes Application Deployment using Minikube
+
 ➤ Project Objective :
 
 Deploy and manage containerized applications using Kubernetes on a local cluster powered by Minikube.
@@ -24,7 +25,9 @@ kubernetes-app-deployment/
     ├── services.png
     └── scaling.png
 
- ➤Prerequisites
+ 
+  
+  ➤Prerequisites
 
 Ensure the following tools are installed on your system:
 

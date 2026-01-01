@@ -1,14 +1,14 @@
 # Node.js-Demo-App
-Kubernetes Application Deployment using Minikube
+## Kubernetes Application Deployment using Minikube
 
 
 
-➤ Project Objective :
+# Project Objective :
 
 Deploy and manage containerized applications using Kubernetes on a local cluster powered by Minikube.
 This project demonstrates how to create deployments, expose services, verify running pods, and scale applications using kubectl.
 
-➤ Tools & Technologies
+# Tools & Technologies
 
 • Kubernetes
 • Minikube
@@ -22,7 +22,7 @@ This project demonstrates how to create deployments, expose services, verify run
 
 
 
-➤ Project Structure :
+#  Project Structure :
 kubernetes-app-deployment/
 │
 ├── deployment.yaml
@@ -39,7 +39,7 @@ kubernetes-app-deployment/
   
   
   
-  ➤Prerequisites
+  # Prerequisites
 
 Ensure the following tools are installed on your system:
 
@@ -53,15 +53,15 @@ Ensure the following tools are installed on your system:
 
 
 
-➤ Steps to Deploy ;
- 1️⃣ Start Minikube Cluster
+#  Steps to Deploy ;
+ ## Start Minikube Cluster
   ➔  minikube start
   ➔  kubectl cluster-info 
 
 
  
  
- 2️⃣ Create Deployment :
+ ## Create Deployment :
 
  Create a file named deployment.yaml to define the application deployment.
 
@@ -74,7 +74,7 @@ Ensure the following tools are installed on your system:
 
 
 
-3️⃣ Expose Application as a Service
+## Expose Application as a Service
 
 Create service.yaml to expose the deployment.
 
@@ -90,7 +90,7 @@ Check services:
  
  
  
- 4️⃣ Verify Pods & Services :
+ ## Verify Pods & Services :
   ➔  kubectl get pods
   ➔  kubectl get services
   ➔  kubectl describe pod <pod-name>
@@ -101,7 +101,7 @@ Check services:
  
  
  
- 5️⃣ Scale the Deployment
+ ##  Scale the Deployment
 
   Increase or decrease replicas using:
    ➔  kubectl scale deployment <deployment-name> --replicas=3
@@ -113,7 +113,7 @@ Check services:
  
  
  
- 6️⃣ Logs & Debugging
+ ## Logs & Debugging
 
   View detailed pod information:
    ➔  kubectl describe pod <pod-name>
@@ -125,7 +125,7 @@ Check services:
  
  
  
- ✅ Deliverables
+ # Deliverables
 
   ✔ Kubernetes Deployment YAML
   ✔ Kubernetes Service YAML
@@ -137,7 +137,7 @@ Check services:
  
  
  
- ➤Learning Outcomes
+ # Learning Outcomes
 
 • Understanding Kubernetes architecture
 • Working with Minikube local clusters

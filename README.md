@@ -5,15 +5,19 @@
 
 # Project Objective :
 
-Deploy and manage containerized applications using Kubernetes on a local cluster powered by Minikube.
-This project demonstrates how to create deployments, expose services, verify running pods, and scale applications using kubectl.
+ Deploy and manage containerized applications using Kubernetes on a local cluster powered by Minikube.
+ This project demonstrates how to create deployments, expose services, verify running pods, and scale applications using kubectl.
 
 # Tools & Technologies
 
 • Kubernetes
+
 • Minikube
+
 • kubectl
+
 • Docker
+
 • YAML configuration files
 
 
@@ -23,15 +27,14 @@ This project demonstrates how to create deployments, expose services, verify run
 
 
 #  Project Structure :
+
 kubernetes-app-deployment/
-│
-├── deployment.yaml
-├── service.yaml
-├── README.md
-└── screenshots/
-    ├── pods.png
-    ├── services.png
-    └── scaling.png
+ 
+  ├── deployment.yaml
+  
+  ├── service.yaml
+  
+  ├── README.md
 
  
   
@@ -44,8 +47,11 @@ kubernetes-app-deployment/
 Ensure the following tools are installed on your system:
 
 • Docker
+
 • Minikube
+
 • kubectl
+
 • Virtualization enabled (if required)   
 
 
@@ -54,8 +60,11 @@ Ensure the following tools are installed on your system:
 
 
 #  Steps to Deploy ;
+
  ## Start Minikube Cluster
+ 
   ➔  minikube start
+  
   ➔  kubectl cluster-info 
 
 
@@ -66,8 +75,11 @@ Ensure the following tools are installed on your system:
  Create a file named deployment.yaml to define the application deployment.
 
  Apply the deployment:
+ 
    ➔ kubectl apply -f deployment.yaml
- Verify pods 
+ 
+ Verify pods
+ 
    ➔  kubectl get pods 
 
 
@@ -78,11 +90,16 @@ Ensure the following tools are installed on your system:
 
 Create service.yaml to expose the deployment.
 
-Apply the service:  
+Apply the service: 
+
    ➔ kubectl apply -f service.yaml
+
 Check services: 
+   
    ➔ kubectl get services
+ 
  Access application: 
+  
    ➔ minikube service <service-name>
 
  
@@ -91,8 +108,11 @@ Check services:
  
  
  ## Verify Pods & Services :
+  
   ➔  kubectl get pods
+  
   ➔  kubectl get services
+  
   ➔  kubectl describe pod <pod-name>
 
 
@@ -104,8 +124,11 @@ Check services:
  ##  Scale the Deployment
 
   Increase or decrease replicas using:
+  
    ➔  kubectl scale deployment <deployment-name> --replicas=3
+  
   Verify scaling:
+   
    ➔  kubectl get pods
 
 
@@ -116,8 +139,11 @@ Check services:
  ## Logs & Debugging
 
   View detailed pod information:
+  
    ➔  kubectl describe pod <pod-name>
+ 
   Check logs:
+  
    ➔  kubectl logs <pod-name>
 
 
@@ -128,9 +154,13 @@ Check services:
  # Deliverables
 
   ✔ Kubernetes Deployment YAML
+  
   ✔ Kubernetes Service YAML
+  
   ✔ Running Pods & Services
+  
   ✔ Scaling Demonstration
+  
   ✔ Screenshots for verification 
 
 
@@ -140,9 +170,13 @@ Check services:
  # Learning Outcomes
 
 • Understanding Kubernetes architecture
+
 • Working with Minikube local clusters
+
 • Creating and managing deployments
+
 • Exposing applications via services
+
 • Scaling and monitoring Kubernetes workloads
 
 

@@ -213,7 +213,7 @@ Check services:
 
 
 
-<img width="1345" height="550" alt="Screenshot (92)" src="https://github.com/user-attachments/assets/de0ff4b8-d00a-4052-afa9-8e196c425100" />
+<img width="1339" height="507" alt="Screenshot (92)" src="https://github.com/user-attachments/assets/3ef6e4d5-d567-4cba-9090-97af0a3d733d" /> 
 
 
 

@@ -187,8 +187,35 @@ Check services:
 
 
 
+<img width="1366" height="725" alt="Screenshot (96)" src="https://github.com/user-attachments/assets/456e971d-454e-45a8-a227-aa4e813e4cfd" />
+
+
+
+
+
+
+
+
+
+
+
+<img width="1366" height="768" alt="Screenshot (98)" src="https://github.com/user-attachments/assets/ba45a662-a2e4-49ce-9863-d42d38d3cb77" /> 
+
+
+
+
+
+
+
+
+
+
+
+
 
 <img width="1345" height="550" alt="Screenshot (92)" src="https://github.com/user-attachments/assets/de0ff4b8-d00a-4052-afa9-8e196c425100" />
+
+
 
 
 
